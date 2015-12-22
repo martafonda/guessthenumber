@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34AA61281C29B22200C447DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AA61271C29B22200C447DA /* AppDelegate.swift */; };
+		34AA612A1C29B22200C447DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AA61291C29B22200C447DA /* ViewController.swift */; };
+		34AA612D1C29B22200C447DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AA612B1C29B22200C447DA /* Main.storyboard */; };
+		34AA612F1C29B22200C447DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34AA612E1C29B22200C447DA /* Assets.xcassets */; };
+		34AA61321C29B22200C447DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AA61301C29B22200C447DA /* LaunchScreen.storyboard */; };
+		34AA613D1C29B22300C447DA /* gessTheNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AA613C1C29B22300C447DA /* gessTheNumberTests.swift */; };
+		34AA61481C29B22300C447DA /* gessTheNumberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AA61471C29B22300C447DA /* gessTheNumberUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34AA61391C29B22300C447DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34AA611C1C29B22200C447DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34AA61231C29B22200C447DA;
+			remoteInfo = gessTheNumber;
+		};
+		34AA61441C29B22300C447DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34AA611C1C29B22200C447DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34AA61231C29B22200C447DA;
+			remoteInfo = gessTheNumber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34AA61241C29B22200C447DA /* gessTheNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gessTheNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34AA61271C29B22200C447DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34AA61291C29B22200C447DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34AA612C1C29B22200C447DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34AA612E1C29B22200C447DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34AA61311C29B22200C447DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34AA61331C29B22200C447DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34AA61381C29B22300C447DA /* gessTheNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gessTheNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34AA613C1C29B22300C447DA /* gessTheNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gessTheNumberTests.swift; sourceTree = "<group>"; };
+		34AA613E1C29B22300C447DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34AA61431C29B22300C447DA /* gessTheNumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gessTheNumberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34AA61471C29B22300C447DA /* gessTheNumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gessTheNumberUITests.swift; sourceTree = "<group>"; };
+		34AA61491C29B22300C447DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34AA61211C29B22200C447DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34AA61351C29B22300C447DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34AA61401C29B22300C447DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34AA611B1C29B22200C447DA = {
+			isa = PBXGroup;
+			children = (
+				34AA61261C29B22200C447DA /* gessTheNumber */,
+				34AA613B1C29B22300C447DA /* gessTheNumberTests */,
+				34AA61461C29B22300C447DA /* gessTheNumberUITests */,
+				34AA61251C29B22200C447DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34AA61251C29B22200C447DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34AA61241C29B22200C447DA /* gessTheNumber.app */,
+				34AA61381C29B22300C447DA /* gessTheNumberTests.xctest */,
+				34AA61431C29B22300C447DA /* gessTheNumberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34AA61261C29B22200C447DA /* gessTheNumber */ = {
+			isa = PBXGroup;
+			children = (
+				34AA61271C29B22200C447DA /* AppDelegate.swift */,
+				34AA61291C29B22200C447DA /* ViewController.swift */,
+				34AA612B1C29B22200C447DA /* Main.storyboard */,
+				34AA612E1C29B22200C447DA /* Assets.xcassets */,
+				34AA61301C29B22200C447DA /* LaunchScreen.storyboard */,
+				34AA61331C29B22200C447DA /* Info.plist */,
+			);
+			path = gessTheNumber;
+			sourceTree = "<group>";
+		};
+		34AA613B1C29B22300C447DA /* gessTheNumberTests */ = {
+			isa = PBXGroup;
+			children = (
+				34AA613C1C29B22300C447DA /* gessTheNumberTests.swift */,
+				34AA613E1C29B22300C447DA /* Info.plist */,
+			);
+			path = gessTheNumberTests;
+			sourceTree = "<group>";
+		};
+		34AA61461C29B22300C447DA /* gessTheNumberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34AA61471C29B22300C447DA /* gessTheNumberUITests.swift */,
+				34AA61491C29B22300C447DA /* Info.plist */,
+			);
+			path = gessTheNumberUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34AA61231C29B22200C447DA /* gessTheNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34AA614C1C29B22300C447DA /* Build configuration list for PBXNativeTarget "gessTheNumber" */;
+			buildPhases = (
+				34AA61201C29B22200C447DA /* Sources */,
+				34AA61211C29B22200C447DA /* Frameworks */,
+				34AA61221C29B22200C447DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gessTheNumber;
+			productName = gessTheNumber;
+			productReference = 34AA61241C29B22200C447DA /* gessTheNumber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34AA61371C29B22300C447DA /* gessTheNumberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34AA614F1C29B22300C447DA /* Build configuration list for PBXNativeTarget "gessTheNumberTests" */;
+			buildPhases = (
+				34AA61341C29B22300C447DA /* Sources */,
+				34AA61351C29B22300C447DA /* Frameworks */,
+				34AA61361C29B22300C447DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34AA613A1C29B22300C447DA /* PBXTargetDependency */,
+			);
+			name = gessTheNumberTests;
+			productName = gessTheNumberTests;
+			productReference = 34AA61381C29B22300C447DA /* gessTheNumberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34AA61421C29B22300C447DA /* gessTheNumberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34AA61521C29B22300C447DA /* Build configuration list for PBXNativeTarget "gessTheNumberUITests" */;
+			buildPhases = (
+				34AA613F1C29B22300C447DA /* Sources */,
+				34AA61401C29B22300C447DA /* Frameworks */,
+				34AA61411C29B22300C447DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34AA61451C29B22300C447DA /* PBXTargetDependency */,
+			);
+			name = gessTheNumberUITests;
+			productName = gessTheNumberUITests;
+			productReference = 34AA61431C29B22300C447DA /* gessTheNumberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34AA611C1C29B22200C447DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Marta Fonda";
+				TargetAttributes = {
+					34AA61231C29B22200C447DA = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 2TAV37SSFK;
+					};
+					34AA61371C29B22300C447DA = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 2TAV37SSFK;
+						TestTargetID = 34AA61231C29B22200C447DA;
+					};
+					34AA61421C29B22300C447DA = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 2TAV37SSFK;
+						TestTargetID = 34AA61231C29B22200C447DA;
+					};
+				};
+			};
+			buildConfigurationList = 34AA611F1C29B22200C447DA /* Build configuration list for PBXProject "gessTheNumber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34AA611B1C29B22200C447DA;
+			productRefGroup = 34AA61251C29B22200C447DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34AA61231C29B22200C447DA /* gessTheNumber */,
+				34AA61371C29B22300C447DA /* gessTheNumberTests */,
+				34AA61421C29B22300C447DA /* gessTheNumberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34AA61221C29B22200C447DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34AA61321C29B22200C447DA /* LaunchScreen.storyboard in Resources */,
+				34AA612F1C29B22200C447DA /* Assets.xcassets in Resources */,
+				34AA612D1C29B22200C447DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34AA61361C29B22300C447DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34AA61411C29B22300C447DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34AA61201C29B22200C447DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34AA612A1C29B22200C447DA /* ViewController.swift in Sources */,
+				34AA61281C29B22200C447DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34AA61341C29B22300C447DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34AA613D1C29B22300C447DA /* gessTheNumberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34AA613F1C29B22300C447DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34AA61481C29B22300C447DA /* gessTheNumberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34AA613A1C29B22300C447DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34AA61231C29B22200C447DA /* gessTheNumber */;
+			targetProxy = 34AA61391C29B22300C447DA /* PBXContainerItemProxy */;
+		};
+		34AA61451C29B22300C447DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34AA61231C29B22200C447DA /* gessTheNumber */;
+			targetProxy = 34AA61441C29B22300C447DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34AA612B1C29B22200C447DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34AA612C1C29B22200C447DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34AA61301C29B22200C447DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34AA61311C29B22200C447DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34AA614A1C29B22300C447DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34AA614B1C29B22300C447DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34AA614D1C29B22300C447DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gessTheNumber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MartaFonda.gessTheNumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34AA614E1C29B22300C447DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gessTheNumber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MartaFonda.gessTheNumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34AA61501C29B22300C447DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gessTheNumberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MartaFonda.gessTheNumberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gessTheNumber.app/gessTheNumber";
+			};
+			name = Debug;
+		};
+		34AA61511C29B22300C447DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gessTheNumberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MartaFonda.gessTheNumberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gessTheNumber.app/gessTheNumber";
+			};
+			name = Release;
+		};
+		34AA61531C29B22300C447DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gessTheNumberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MartaFonda.gessTheNumberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gessTheNumber;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		34AA61541C29B22300C447DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gessTheNumberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MartaFonda.gessTheNumberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gessTheNumber;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34AA611F1C29B22200C447DA /* Build configuration list for PBXProject "gessTheNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34AA614A1C29B22300C447DA /* Debug */,
+				34AA614B1C29B22300C447DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34AA614C1C29B22300C447DA /* Build configuration list for PBXNativeTarget "gessTheNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34AA614D1C29B22300C447DA /* Debug */,
+				34AA614E1C29B22300C447DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34AA614F1C29B22300C447DA /* Build configuration list for PBXNativeTarget "gessTheNumberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34AA61501C29B22300C447DA /* Debug */,
+				34AA61511C29B22300C447DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34AA61521C29B22300C447DA /* Build configuration list for PBXNativeTarget "gessTheNumberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34AA61531C29B22300C447DA /* Debug */,
+				34AA61541C29B22300C447DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34AA611C1C29B22200C447DA /* Project object */;
+}
